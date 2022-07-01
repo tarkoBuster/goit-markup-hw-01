@@ -12,7 +12,7 @@
     line-height: 31px;
     margin-right: 40px;
     a {
-      font-family: "Raleway";
+      font-family: "Raleway", sans-serif;
       color: #000;
     }
     span {
@@ -28,7 +28,7 @@
     }
   }
   nav {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -45,7 +45,7 @@
   }
   &_email {
     margin-right: 50px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -53,7 +53,7 @@
     color: #2196F3;
   }
   &_phone {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;

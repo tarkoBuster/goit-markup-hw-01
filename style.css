@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -27,7 +26,7 @@ ul {
   margin-right: 40px;
 }
 .header_logo a {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000;
 }
 .header_logo span {
@@ -42,7 +41,7 @@ ul {
   margin-right: 50px;
 }
 .header nav {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -59,7 +58,7 @@ ul {
 }
 .header_email {
   margin-right: 50px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -67,7 +66,7 @@ ul {
   color: #2196F3;
 }
 .header_phone {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -82,7 +81,7 @@ main .main {
 }
 main .main h1 {
   padding-top: 200px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
@@ -107,7 +106,7 @@ main .discription {
 }
 main .discription h2 {
   margin-top: 60px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -124,7 +123,7 @@ main .discription ul li {
   width: 20%;
 }
 main .discription ul h3 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -132,7 +131,7 @@ main .discription ul h3 {
 }
 main .discription ul p {
   margin-top: 10px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -144,7 +143,7 @@ main .what_we_do {
 }
 main .what_we_do h2 {
   margin-bottom: 50px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -165,7 +164,7 @@ main .about {
 main .about h2 {
   padding-top: 95px;
   margin-bottom: 50px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -180,7 +179,7 @@ main .about .people {
 }
 main .about .people h3 {
   margin: 30px 0 10px 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -188,11 +187,66 @@ main .about .people h3 {
   color: #212121;
 }
 main .about .people p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  color: #757575;
+}
+main .portfolio_links {
+  margin-top: 95px;
+}
+main .portfolio_links ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+main .portfolio_links ul li input[type=button] {
+  width: 145px;
+  height: 38px;
+  background: #F5F4FA;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #212121;
+  cursor: pointer;
+}
+main .portfolio_links ul li input[type=button]:hover {
+  background: #2196F3;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+main .portfolio_cards {
+  margin: 50px 0;
+}
+main .portfolio_cards ul {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 370px 370px 370px;
+  gap: 30px;
+  justify-content: center;
+}
+main .portfolio_cards ul li h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
+}
+main .portfolio_cards ul li p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
   color: #757575;
 }
 
@@ -206,14 +260,14 @@ main .about .people p {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   color: #000;
 }
 .footer_logo span {
   color: #2196F3;
 }
 .footer p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -221,7 +275,7 @@ main .about .people p {
   margin-top: 20px;
 }
 .footer_email {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -229,7 +283,7 @@ main .about .people p {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer_phone {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;

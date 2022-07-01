@@ -7,7 +7,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     color: #000;
     span {
       color: #2196F3;
@@ -15,7 +15,7 @@
   }
 
   p {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -23,7 +23,7 @@
     margin-top: 20px;
   }
   &_email {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -31,7 +31,7 @@
     color: rgba(255, 255, 255, 0.6);
   }
   &_phone {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
