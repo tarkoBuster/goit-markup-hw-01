@@ -1,0 +1,41 @@
+.footer {
+  background: #2F303A;
+  padding: 60px 0 0 215px;
+  min-height: 200px;
+  &_logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: "Raleway";
+    color: #000;
+    span {
+      color: #2196F3;
+    }
+  }
+
+  p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+  &_email {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &_phone {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
