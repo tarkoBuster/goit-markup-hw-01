@@ -2,45 +2,46 @@ main {
   .main {
     min-height: 600px;
     min-width: 100%;
-    background: #2F303A;
+    background: var(--main-background-color);
     text-align: center;
 
     h1 {
       padding-top: 200px;
-      font-family: 'Roboto', sans-serif;
       font-weight: 900;
       font-size: 44px;
-      line-height: 60px;
+      line-height: 1.36;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: var(--title-text-color);
+      letter-spacing: 0.06em;
     }
 
     input {
+      font-size: 16px;
+      line-height: 1.88;
+      letter-spacing: 0.06em;
+      color: var(--title-text-color);
+      cursor: pointer;
       margin-top: 30px;
       width: 200px;
       height: 50px;
-      background: #2196F3;
+      font-weight: 700;
+      background: var(--link-color);
       box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
       border-radius: 4px;
-      color: #fff;
-      cursor: pointer;
     }
   }
 
-  .discription {
+  .description {
     min-height: 290px;
     display: block;
     margin: 0 auto;
     width: 70%;
+    
 
     h2 {
       margin-top: 60px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
       font-size: 36px;
-      line-height: 42px;
       text-align: center;
-      color: #212121;
     }
 
     ul {
@@ -54,36 +55,27 @@ main {
       }
 
       h3 {
-        font-family: 'Roboto', sans-serif;
         font-weight: 700;
-        font-size: 14px;
         text-transform: uppercase;
-        color: #212121;
       }
 
       p {
         margin-top: 10px;
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
+        line-height: 1.7;
         color: #757575;
       }
     }
   }
 
   .what_we_do {
-    background-color: #fff;
+    background-color: var(--title-text-color);
     margin-top: 60px;
 
     h2 {
       margin-bottom: 50px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
       font-size: 36px;
-      line-height: 42px;
       text-align: center;
-      color: #212121;
     }
 
     ul {
@@ -97,40 +89,35 @@ main {
 
   .about {
     min-height: 650px;
-    background-color: #F5F4FA;
+    background: var(--background-page-color);
+
 
     h2 {
       padding-top: 95px;
       margin-bottom: 50px;
-      font-family: 'Roboto', sans-serif;
-      font-weight: 700;
       font-size: 36px;
-      line-height: 42px;
       text-align: center;
-      color: #212121;
+      color: var(--main-text-color);
     }
 
     .people {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 215px;
+      padding: 0 15%;
 
       h3 {
         margin: 30px 0 10px 0;
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         text-align: center;
-        color: #212121;
       }
 
       p {
-        font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 1.2;
         text-align: center;
         color: #757575;
       }
@@ -138,7 +125,13 @@ main {
   }
 
   .portfolio_links {
-    margin-top: 95px;
+    margin-top: 60px;
+    h1{
+      margin-bottom: 50px;
+      font-size: 36px;
+      text-align: center;
+    }
+  
 
     ul {
       display: flex;
@@ -146,55 +139,57 @@ main {
       justify-content: center;
       gap: 10px;
 
-      li input[type="button"] {
+      li button {
         width: 145px;
         height: 38px;
-        background: #F5F4FA;
+        border: none;
         border-radius: 4px;
-        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
-        line-height: 26px;
+        line-height: 1.62;
         text-align: center;
-        color: #212121;
+        color: var(--main-text-color);
         cursor: pointer;
+
         &:hover {
-          background: #2196F3;
-          font-family: 'Roboto', sans-serif;
+          background: var(--link-color);
           font-weight: 500;
           font-size: 16px;
-          line-height: 26px;
+          line-height: 1.62;
           text-align: center;
-          color: #FFFFFF;
+          color: var(--title-text-color);
         }
       }
 
     }
-  }
-  .portfolio_cards {
-    margin: 50px 0;
-    ul {
+    .portfolio_cards {
+      margin: 50px 0;
       display: grid;
       align-items: center;
       grid-template-columns: 370px 370px 370px;
       gap: 30px;
       justify-content: center;
+
       li {
         h3 {
-          font-family: 'Roboto', sans-serif;
-          font-weight: 700;
           font-size: 18px;
-          line-height: 36px;
-          color: #212121;
+          line-height: 2;
+          font-weight: 700;
+          letter-spacing: 0.06em;
+          color: var(--main-text-color);
         }
+
         p {
-          font-family: 'Roboto', sans-serif;
           font-weight: 400;
           font-size: 16px;
-          line-height: 30px;
+          line-height: 1.87;
+          letter-spacing: 0.03em;
           color: #757575;
         }
       }
     }
   }
+
+
+
 }
