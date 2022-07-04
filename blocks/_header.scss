@@ -1,18 +1,12 @@
 .header {
 
-
-  .container {
-    max-width: 1770px;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-
   &_logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
+    font-weight: 700;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--link-color);
   }
 
   &__inner {
@@ -36,7 +30,7 @@
     }
 
     span {
-      color: #2196F3;
+      color: var(--link-color);
     }
 
     a {
@@ -54,11 +48,12 @@
     margin-right: 50px;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.5;
-    color: #2196F3;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 
     &:hover, &:focus {
-      color: blue;
+      color: var(--link-color);
     }
   }
 
@@ -69,11 +64,11 @@
     color: #757575;
 
     &:hover, &:focus {
-      color: dodgerblue;
+      color: var(--link-color);
     }
   }
 }
 
 .header_links:hover, .header_links:focus {
-  color: blue;
+  color: var(--link-color);
 }
